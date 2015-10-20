@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="api-version" value="2" />
+  </head>
+  <body>
+<% for(var i=0; i<packages.length; i++) {%>
+<a href='<%= packages[i] %>'><%= packages[i] %></a><br/>
+<% } %>
+  </body>
+</html>

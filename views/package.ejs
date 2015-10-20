@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="api-version" value="2" />
+  </head>
+  <body>
+    <h1><%= package %></h1>
+<% for(var i=0; i<revisions.length; i++) {%>
+<a href="<%= revisions[i].path %>#md5=<%= revisions[i].md5 %>" rel="internal"><%= revisions[i].name %></a><br/>
+<% } %>
+  </body>
+</html>

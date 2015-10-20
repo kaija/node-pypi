@@ -1,2 +1,5 @@
 # node-pypi
-Node.js multi distribution pypi server
+
+
+copy node-pypi.json to /etc/node-pypi.json
+edit the port and the package path
